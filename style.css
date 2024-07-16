@@ -1,0 +1,52 @@
+h1 {
+	color: white;
+	background-color: #774936;
+	font: middle;
+	font-size: 100px;
+}
+p {
+	color: #3C5055;
+	font-size: 25px;
+}
+h2 {
+	color: #774936;
+	background-color: white;
+	font-size: 50px;
+}
+body {
+	background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+	font-family: "Nunito", sans-serif;
+}
+img {
+	border-radius: 15px;
+	border: 7px white solid;
+}
+a {
+	color: greenyellow;
+	background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+span {
+	color: purple;
+}
+@keyframes cligner {
+
+0% {
+opacity: 0;
+
+}
+
+50% {
+opacity: 1;
+
+}
+
+100%{
+opacity: 0;
+}
+}
+
+#titre{
+color: white;
+font-size: 60px;
+animation: cligner 3s infinite;
+}
